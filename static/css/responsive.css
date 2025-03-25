@@ -1,0 +1,65 @@
+
+/*============ Very large Device ===========*/
+@media (min-width:1440px) and (max-width:1919px){
+}
+/*============ Desktop Device ===========*/
+@media (min-width:1366px) and (max-width:1439px){
+}
+/*============ Laptop Device ===========*/
+@media (min-width:1024px) and (max-width:1365px){
+    .ycalender_inner th {
+        padding: 10px 11px;
+        font-size: 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+}
+
+/*============= Tablet Large device ===============*/
+@media (min-width:992px) and (max-width:1023px){
+    .ycalender_inner th {
+        padding: 10px 11px;
+        font-size: 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+}
+
+/*============= Tablet device ===============*/
+@media (min-width:768px) and (max-width:991px){
+    .ycalender_inner th {
+        padding: 10px 11px;
+        font-size: 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+}
+
+/*============= mobile large device ===============*/
+@media (max-width:767px){
+    .ycalender_inner th {
+        padding: 10px 11px;
+        font-size: 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .select_items {
+        font-size: 12px;
+    }
+}
+
+/*============= mobile device ===============*/
+@media (min-width:320px) and (max-width:480px){
+    #scrollUp {
+        bottom: 20px;
+        right: 5px;
+    }
+}
